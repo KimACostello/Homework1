@@ -1,0 +1,52 @@
+---
+title: "Data Science"
+format: html
+editor: visual
+---
+
+### What is being a data scientist about?
+
+A data scientist is about transforming raw data into meaning. A data scientist cleans raw data and gathers insights through analysis . Data scientists discover patterns in data through modeling and inference. A data scientist's goal can be to summarize and explore a data set, compare different groups, find an optimal business solution, use regression to project a numerical value, predict the classification of a new observation, and so much more! A data scientist must also be skilled in communicating their findings.
+
+### Data Scientists vs Statisticians - Differences/Similarities
+
+Data scientists and statisticians both gather meaningful insights from data to help organizations solve problems, but their focuses are slightly different.
+
+**Statistician**
+
+-   Mainly focuses on modeling
+-   Data is relatively small in size and clean in text file formats.
+-   Work with mostly structured data
+-   Bring data to models
+
+**Data Scientist**
+
+-   Mainly focuses on business problem and result
+-   Work with messy and large amounts of data in various formats
+-   Work with structured and unstructured data
+-   Bring models to data
+
+### How do I view myself in relation to these two areas?
+
+I don't currently view myself as either of these, but I am most interested in becoming a data scientist. So far in my graduate classes, I have enjoyed learning programming languages and learning all the ways to clean and explore data sets. I also think those two areas overlap. I still need to have a solid foundation in statistical analysis to be a successful data scientist.
+
+### Iris Dataset
+
+Create object y.
+```{r}
+y <- density(iris$Petal.Width)
+```
+
+Determine the class, type, and structure of object y.
+```{r}
+class(y)
+typeof(y)
+str(y)
+```
+
+Use the plot function on y and hide the R code. 
+```{r}
+#| echo: false 
+plot(y)
+```
+
